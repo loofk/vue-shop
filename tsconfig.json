@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noEmitOnError": true,
+    "target": "es5",
+    "module": "esnext",
+    "strict": true,
+    "allowJs": true,
+    "noEmit": false,
+    "noImplicitThis": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "lib": [
+      "es2015",
+      "es5",
+      "dom",
+      "es2015.promise",
+      "esnext"
+    ],
+  },
+  "include": [
+    "src/**/*", "types", "scripts"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
